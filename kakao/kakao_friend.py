@@ -3,8 +3,7 @@ import json
 
 class Kakao_friend():
     def __init__(self):
-        #self.app_key = "{REST API 키}" ## REST API 키 입력 
-        self.app_key = "" ## appmaster hdc-labs.co.kr의 REST API 키 입력 
+        self.app_key = "{REST API 키}" ## REST API 키 입력 
 
         with open("kakao/kakao_token.json", "r") as fp:
             self.tokens = json.load(fp)
